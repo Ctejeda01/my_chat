@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MyChat</title>
+    <%= csrf_meta_tags %>
+
+    
+    <link rel="stylesheet" href="/assets/application.css" >
+    <%= javascript_include_tag 'app', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
